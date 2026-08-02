@@ -1,0 +1,21 @@
+{
+  "name": "obsidian-tamagotchi",
+  "version": "0.2.0",
+  "description": "Tamagotchi plugin for Obsidian (with settings, animation, audio)",
+  "main": "main.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "clean": "rimraf dist tamagotchi-plugin.zip build",
+    "package": "node ./scripts/package.js"
+  },
+  "devDependencies": {
+    "archiver": "^5.3.1",
+    "rimraf": "^3.0.2",
+    "rollup": "^3.0.0",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "typescript": "^5.0.0",
+    "fs-extra": "^11.1.1"
+  },
+  "dependencies": {}
+}

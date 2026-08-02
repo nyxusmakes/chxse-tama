@@ -1,0 +1,11 @@
+{
+  "id": "tamagotchi-plugin",
+  "name": "Tamagotchi",
+  "version": "0.2.0",
+  "minAppVersion": "1.4.0",
+  "description": "A small animated Tamagotchi for Obsidian's sidebar (mobile-friendly).",
+  "author": "nyxusmakes",
+  "authorUrl": "",
+  "isDesktopOnly": false,
+  "main": "main.js"
+}
